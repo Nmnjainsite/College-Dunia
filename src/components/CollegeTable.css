@@ -1,0 +1,285 @@
+.college-table-container {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.college-table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+  border: 1px solid #ddd;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ddd;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.load-more {
+  background-color: #22d3ee;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1rem;
+  font-size: 16px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.college-table th,
+.college-table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  position: relative;
+  vertical-align: top;
+}
+
+.college-table th {
+  background-color: #22d3ee;
+  color: white;
+  font-size: 14px;
+}
+
+.college-table td {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.college-info {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.college-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.college-details h3 {
+  font-size: 14px;
+  margin: 0;
+  color: #22d3ee;
+}
+
+.college-details p {
+  margin: 2px 0;
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.college-fees,
+.college-user-rating {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  width: 150px;
+}
+
+.college-fees h3 {
+  color: #059669;
+  font-size: 14px;
+}
+
+.college-fees p {
+  color: #555;
+  font-size: 12px;
+  font-weight: 500px;
+}
+
+.college-details .course {
+  font-weight: bold;
+  color: orange;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.college-course-details {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-left: 2px solid orange;
+  padding-left: 0.5rem;
+}
+
+.college-details .cutoff {
+  color: #555;
+}
+
+.college-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-brochure {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-now {
+  color: orange;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.download-brochure {
+  color: #00a6e9;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.apply-now:hover {
+  cursor: pointer;
+}
+
+.add-to-compare {
+  display: flex;
+  align-items: center;
+  color: #555;
+  background-color: transparent;
+  border: none;
+  gap: 6px;
+}
+
+.college-table .featured {
+  background-color: #fff7e6;
+}
+
+.college-table td a {
+  color: orange;
+  font-size: 12px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.college-table td a:hover {
+  text-decoration: underline;
+}
+
+.college-user-rating h3 {
+  display: flex;
+  align-items: center;
+  gap: 2;
+  color: #555;
+  font-size: 14px;
+}
+
+.college-user-rating p {
+  font-size: 12px;
+  color: #555;
+}
+
+.college-user-rating p:nth-child(4) {
+  font-size: 12px;
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ranking-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rank-summary {
+  font-size: 14px;
+  color: #333;
+}
+
+.rank-position {
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+.rank-details {
+  margin-left: 5px;
+  color: #f57c00;
+}
+
+.rank-year {
+  font-size: 12px;
+  color: gray;
+  font-weight: 500px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rank-logos {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+  border-left: 2px solid skyblue;
+}
+
+.rank-logo {
+  width: 30px;
+  height: auto;
+}
+
+.more-rankings {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #007bff;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.more-rankings .dropdown-icon {
+  margin-left: 5px;
+  font-size: 10px;
+  transform: translateY(-1px);
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  background-color: #ff5656;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 16px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
